@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.section {
+  min-height: 100vh;
+  width: 100%;
+}
+
+#header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),
+    url("../images/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#header #nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 50px;
+
+  /* temporary background */
+  /* TODO: Remove the background and make it dynamic wwith JavaScript */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#header a {
+  color: white;
+  text-decoration: none;
+}
+#header #nav #logo a {
+  font-size: 2em;
+}
+#header #nav #menu-list ul {
+  list-style: none;
+  display: flex;
+}
+#header #nav #menu-list ul li {
+  padding: 0 20px;
+}
+#header #nav #menu-list ul li:last-child {
+  padding-left: 50px;
+}
+#header #nav #menu-list ul li:last-child i {
+  padding-right: 10px;
+}
+
+#header #hero-section {
+  align-self: center;
+  color: white;
+  text-align: center;
+}
+#header #hero-section h1 {
+  font-size: 6em;
+  margin-bottom: 0;
+}
+#header #hero-section h2 {
+  font-size: 2em;
+  margin: 0;
+}
+#header #hero-section ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header #hero-section ul li {
+  padding: 0 10px;
+}
