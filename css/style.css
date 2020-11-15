@@ -157,3 +157,27 @@ body {
   background-color: #323545;
 }
 /* End of Works Section */
+
+#skills {
+  background-color: #252533;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  box-sizing: border-box;
+}
+#skills h3 {
+  font-size: 2em;
+}
+#skills .skill {
+  border: 1px solid white;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.1em;
+}
