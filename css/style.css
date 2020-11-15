@@ -5,7 +5,8 @@ body {
   min-height: 100vh;
 }
 
-.section {
+.section,
+.section .project {
   min-height: 100vh;
   width: 100%;
 }
@@ -80,4 +81,71 @@ body {
 }
 #header #hero-section ul li {
   padding: 0 10px;
+}
+/* End of Header */
+
+#works {
+  color: white;
+}
+#works .project {
+  padding: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+#works .project .demo {
+  width: 100%;
+  min-height: 600px;
+  margin-right: 50px;
+  border-radius: 10px;
+
+  /* TODO: Remove this background properties */
+  background-image: url("../images/royal-anime-screenshot.png");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  overflow: hidden;
+  transition: background-position 6s ease-in-out;
+}
+#works .project .demo:hover {
+  background-position: bottom left;
+}
+
+#works .project .project-info {
+  width: 50%;
+}
+#works .project .project-info h3 {
+  font-size: 2em;
+}
+#works .project .project-info .features ul {
+  list-style: none;
+  padding-left: 20px;
+}
+#works .project .project-info .features ul li {
+  padding: 10px 0;
+}
+#works .project .project-info .demo-link {
+  color: #ffad28;
+  text-decoration: none;
+  font-size: 1.25em;
+}
+#works .project .project-info .demo-link i {
+  padding: 0 10px;
+  font-size: 0.75em;
+}
+
+#royal-anime {
+  background-color: black;
+}
+#iphotographer {
+  background-color: #252533;
+}
+#multi-step-form {
+  background-color: #323545;
 }
