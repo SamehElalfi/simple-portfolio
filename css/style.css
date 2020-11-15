@@ -88,7 +88,7 @@ body {
   color: white;
 }
 #works .project {
-  padding: 50px;
+  padding: 50px 100px;
 
   display: flex;
   justify-content: center;
@@ -98,10 +98,13 @@ body {
   box-sizing: border-box;
   overflow: hidden;
 }
+#works .project:nth-of-type(even) .demo {
+  order: 2;
+}
 #works .project .demo {
   width: 100%;
   min-height: 600px;
-  margin-right: 50px;
+  margin: 0 50px;
   border-radius: 10px;
 
   /* TODO: Remove this background properties */
@@ -123,8 +126,11 @@ body {
 #works .project .project-info h3 {
   font-size: 2em;
 }
+#works .project .project-info p {
+  font-size: 1.2em;
+}
 #works .project .project-info .features ul {
-  list-style: none;
+  list-style-type: none;
   padding-left: 20px;
 }
 #works .project .project-info .features ul li {
@@ -140,6 +146,7 @@ body {
   font-size: 0.75em;
 }
 
+/* Here are the main colors of the works sections */
 #royal-anime {
   background-color: black;
 }
@@ -149,3 +156,4 @@ body {
 #multi-step-form {
   background-color: #323545;
 }
+/* End of Works Section */
