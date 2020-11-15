@@ -4,7 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sameh A. ELalfi</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@600&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <!-- Styles -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -15,9 +25,9 @@
       <div id="menu-list">
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">Works</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
           <li><a href="#"><i class="fa fa-user-circle-o"></i> Account</a></li>
         </ul>
       </div>
@@ -40,7 +50,7 @@
     <div id="royal-anime" class="project">
       <div class="demo"></div>
       <div class="project-info">
-        <h3>Royal Anime</h3>
+        <h3>Royal <span class="yellow-color">Anime</span></h3>
         <p>Arabic website to watch and download anime episode with an advanced dashboard to manage episodes and movies.</p>
         <div class="features">
           <ul>
@@ -58,7 +68,7 @@
     <div id="iphotographer" class="project">
       <div class="demo"></div>
       <div class="project-info">
-        <h3>iPhotographer</h3>
+        <h3><span class="yellow-color">i</span>Photographer</h3>
         <p>Creative landing page for photographer blog with the latest blog posts.</p>
         <div class="features">
           <ul>
@@ -76,7 +86,7 @@
     <div id="multi-step-form" class="project">
       <div class="demo"></div>
       <div class="project-info">
-        <h3>Multi-Step Form</h3>
+        <h3>Multi-Step <span class="yellow-color">Form</span></h3>
         <p>Multi-Step Form to a web development company.</p>
         <div class="features">
           <ul>
@@ -121,10 +131,10 @@
     <div class="contact__section contact__form">
       <h3>Contact Us</h3>
       <form action="#" method="post">
-        <div class="input-group"><input type="text" required><span>Full Name</span></div>
-        <div class="input-group"><input type="email" required><span>Email</span></div>
-        <div class="input-group"><input type="tel"><span>Phone Number</span></div>
-        <div class="input-group"><textarea name="message" cols="30" rows="10" required></textarea><span>message</span></div>
+        <div class="input-group"><input placeholder="Full Name" type="text" value="" required></div>
+        <div class="input-group"><input placeholder="Email" type="email" value="" required></div>
+        <div class="input-group"><input placeholder="Phone Number" type="tel" value=""></div>
+        <div class="input-group"><textarea placeholder="Message" name="message" cols="30" rows="10" value="" required></textarea></div>
         <button type="submit" class="submit">Submit</button>
       </form>
     </div>
