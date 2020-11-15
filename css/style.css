@@ -107,9 +107,6 @@ body {
   margin: 0 50px;
   border-radius: 10px;
 
-  /* TODO: Remove this background properties */
-  background-image: url("../images/royal-anime-screenshot.png");
-
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top left;
@@ -147,11 +144,20 @@ body {
 }
 
 /* Here are the main colors of the works sections */
+#royal-anime .demo {
+  background-image: url("../images/royal-anime-screenshot.png");
+}
 #royal-anime {
   background-color: black;
 }
+#iphotographer .demo {
+  background-image: url("../images/iphotographer-screenshot.png");
+}
 #iphotographer {
   background-color: #252533;
+}
+#multi-step-form .demo {
+  background-image: url("../images/multi-step-form.png");
 }
 #multi-step-form {
   background-color: #323545;
