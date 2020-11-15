@@ -244,3 +244,26 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* End of Contect us Section*/
+
+#footer {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 30px;
+  box-sizing: border-box;
+}
+#footer #contact-info {
+  display: flex;
+}
+#footer #contact-info > div,
+#footer #contact-info i {
+  margin: 0 10px;
+}
+#footer #contact-info a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+/* End of Footer Section */
