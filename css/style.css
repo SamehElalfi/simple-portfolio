@@ -181,3 +181,66 @@ body {
 
   font-size: 1.1em;
 }
+
+/* End of Skills Section */
+
+#contact {
+  background-color: #323545;
+  color: white;
+  display: flex;
+}
+#contact .contact__section {
+  width: 50%;
+  display: inline-block;
+  overflow: hidden;
+}
+#contact .contact__form {
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact .contact__form h3 {
+  font-size: 1.5em;
+}
+#contact .contact__form .input-group {
+  position: relative;
+}
+#contact .contact__form .input-group input,
+#contact .contact__form button,
+#contact .contact__form .input-group textarea {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 500px;
+  margin: 15px 0;
+}
+#contact .contact__form .input-group textarea {
+  height: 120px;
+}
+#contact .contact__form .input-group input:focus + span,
+#contact .contact__form .input-group textarea:focus + span {
+  top: -5px;
+  color: white;
+}
+#contact .contact__form .input-group span {
+  color: black;
+  position: absolute;
+  top: 30px;
+  left: 5px;
+  transition: all 0.3s ease-in-out;
+  text-transform: capitalize;
+}
+#contact .contact__form button {
+  background-color: #ffad28;
+  color: white;
+  font-size: 1.1em;
+}
+#contact .contact__section.map {
+  background-image: url("../images/map.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
