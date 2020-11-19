@@ -47,21 +47,15 @@ body {
 #header #nav #logo a {
   font-size: 2em;
 }
-#header #nav #menu-list ul {
+#header #nav #menu-list {
   list-style: none;
   display: flex;
   margin-top: 1em;
+  padding: 0;
 }
-#header #nav #menu-list ul li {
+#header #nav #menu-list li {
   padding: 0 20px;
 }
-#header #nav #menu-list ul li:last-child {
-  padding-left: 50px;
-}
-#header #nav #menu-list ul li:last-child i {
-  padding-right: 10px;
-}
-
 #header #hero-section {
   align-self: center;
   color: white;
