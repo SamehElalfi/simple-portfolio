@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Control Freelancers</title>
+
+    <!-- Fonts -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@600&display=swap" rel="stylesheet"> -->
+
+    <!-- Icons -->
+    <!-- Font Awesome v5.15.1 -->
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div id="navbar" class="mb-2">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Elalfi Works</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+      <!-- End col-12 -->
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="list-group">
+            <a
+              href="Dashboard.html"
+              class="list-group-item list-group-item-action"
+              ><i class="fas fa-cogs"></i> Dashboard</a
+            >
+            <a
+              href="create-user.html"
+              class="list-group-item list-group-item-action"
+              ><i class="fas fa-user"></i> Create User</a
+            >
+            <a href="users.html" class="list-group-item list-group-item-action"
+              ><i class="fas fa-users"></i> Users Management
+              <span class="badge badge-primary">50</span></a
+            >
+            <a
+              href="freelancers.html"
+              class="list-group-item list-group-item-action active"
+              ><i class="fas fa-columns"></i> Control Freelancers</a
+            >
+          </div>
+        </div>
+        <!-- End .col-md-3 -->
+
+        <!-- Page Content -->
+        <div class="col-md-9">
+          <div class="card">
+            <h5 class="card-header"><i class="fas fa-star"></i> Freelancers</h5>
+            <div class="card-body">
+              <table class="table table-striped custab">
+                <thead>
+                  <a
+                    href="/create-user.html"
+                    class="btn btn-primary btn-xs pull-right mb-4"
+                    ><b>+</b> Add new Freelancer</a
+                  >
+                  <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th class="text-center">Action</th>
+                  </tr>
+                </thead>
+                <tr>
+                  <td>1</td>
+                  <td>Sameh Ashraf</td>
+                  <td>sameh.elalfi.mail@gmail.com</td>
+                  <td class="text-center">
+                    <a class="btn btn-info btn-xs" href="#"
+                      ><span class="glyphicon glyphicon-edit"></span> Edit</a
+                    >
+                    <a href="#" class="btn btn-danger btn-xs"
+                      ><span class="glyphicon glyphicon-remove"></span> Del</a
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Ali Mohammed</td>
+                  <td>ali.mohammed@gmail.com</td>
+                  <td class="text-center">
+                    <a class="btn btn-info btn-xs" href="#"
+                      ><span class="glyphicon glyphicon-edit"></span> Edit</a
+                    >
+                    <a href="#" class="btn btn-danger btn-xs"
+                      ><span class="glyphicon glyphicon-remove"></span> Del</a
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Nada Farouk</td>
+                  <td>nada.farouk99@gmail.com</td>
+                  <td class="text-center">
+                    <a class="btn btn-info btn-xs" href="#"
+                      ><span class="glyphicon glyphicon-edit"></span> Edit</a
+                    >
+                    <a href="#" class="btn btn-danger btn-xs"
+                      ><span class="glyphicon glyphicon-remove"></span> Del</a
+                    >
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <!-- End .col-md-9 -->
+      </div>
+      <!-- End .row -->
+    </div>
+    <!-- End .container -->
+
+    <!-- Main Scripts -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
